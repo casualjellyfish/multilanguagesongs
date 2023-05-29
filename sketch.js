@@ -142,8 +142,7 @@ function setup() {
 
   refreshButton = createButton('⟳');
   refreshButton.class('refreshButton');
-  refreshButton.position(10, -0.5);
-  refreshButton.style('font-size','3vw');
+  refreshButton.position(10, 0);
   refreshButton.mouseClicked(refreshText);
 
 
