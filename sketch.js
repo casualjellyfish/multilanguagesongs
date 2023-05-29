@@ -142,7 +142,7 @@ function setup() {
 
   refreshButton = createButton('⟳');
   refreshButton.class('refreshButton');
-  refreshButton.position(0,0)
+  refreshButton.position(10,0)
   refreshButton.mouseClicked(refreshText);
 
 
